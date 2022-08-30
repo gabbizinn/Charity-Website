@@ -1,14 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
 /* #NAV BOX */
-header {
+/* header {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: gray;
+} */
+
+.nav {
+  background-color: green;
 }
 
-li,
 a,
 button {
   font-family: "Open+Sans", sans-serif;
@@ -16,6 +19,8 @@ button {
   font-size: 23px;
   color: pink;
   text-decoration: none;
+  float: left;
+  margin-left: 385px;
 }
 
 .header {
@@ -23,6 +28,34 @@ button {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo-pic {
+  cursor: pointer;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+/* #puts spacing in between the links */
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+/* #Makes links move */
+.nav_links li a {
+  transition: all 1.9s ease 0s;
+}
+
+/* #Changes hover color */
+.nav_links li a:hover {
+  color: black;
 }
 
 /* #LOGO PIC */
