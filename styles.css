@@ -8,34 +8,29 @@
   background-color: gray;
 } */
 
-.nav {
-  background-color: green;
-}
-
 a,
 button {
   font-family: "Open+Sans", sans-serif;
-  font-weight: 500;
-  font-size: 23px;
-  color: pink;
+  font-weight: 500px;
+  font-size: 30px;
+  color: black;
   text-decoration: none;
-  float: left;
-  margin-left: 385px;
+  float: right;
+  margin-right: 55px;
 }
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
 }
 
-.logo {
-  cursor: pointer;
-}
-
-.logo-pic {
-  cursor: pointer;
+.nav {
+  height: 50px;
+  padding-right: -70px;
+  padding-left: -70px;
+  /* background-color: rgba(119, 136, 153); */
 }
 
 .nav_links {
@@ -45,17 +40,29 @@ button {
 /* #puts spacing in between the links */
 .nav_links li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 30px 10%;
 }
 
 /* #Makes links move */
 .nav_links li a {
-  transition: all 1.9s ease 0s;
+  transition: all 0s ease 0s;
 }
 
 /* #Changes hover color */
-.nav_links li a:hover {
-  color: black;
+a:hover {
+  color: pink;
+}
+
+button {
+  padding: 9px 25px;
+  /* background-color: rgba(119, 136, 153); */
+  border-radius: 89px;
+  transition: all 0s ease 0s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: pink;
 }
 
 /* #LOGO PIC */
@@ -153,3 +160,13 @@ button {
   width: 30%;
   margin-bottom: 800px;
 }
+
+/* #EXTRA CODE */
+/* #Hover for logo pic */
+/* .logo {
+  cursor: pointer;
+}
+
+.logo-pic {
+  cursor: pointer;
+} */
