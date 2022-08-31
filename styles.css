@@ -1,13 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
-/* #NAV BOX */
-/* header {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  background-color: gray;
-} */
-
 a,
 button {
   font-family: "Open+Sans", sans-serif;
@@ -17,13 +9,6 @@ button {
   text-decoration: none;
   float: right;
   margin-right: 55px;
-}
-
-.header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 30px 10%;
 }
 
 .nav {
@@ -65,12 +50,20 @@ button:hover {
   background-color: pink;
 }
 
-/* #LOGO PIC */
-.logo-pic {
+/* # HOME LOGO PIC */
+.home-logo-pic {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 25%;
+}
+
+/* #LOGO PIC */
+.logo-pic {
+  display: block;
+  margin-left: 1px;
+  /* margin-right: auto; */
+  width: 10%;
 }
 
 /* #LINE */
@@ -90,45 +83,7 @@ button:hover {
   margin-bottom: 800px;
 }
 
-/* #QUESTIONS IN THE MIDDLE */
-.what {
-  text-align: center;
-  padding: 14px 20px;
-  display: inline-block;
-  font-size: 45px;
-  right: -1060px;
-
-  /* text-align: center;
-  padding: 14px 20px;
-  display: inline-block;
-  margin-left: 1060px;
-  font-size: 45px; */
-}
-
-.why {
-  /* text-align: center;
-  text-indent: 380px; */
-  /* float: left; */
-  text-align: center;
-  padding: 14px 20px;
-  display: inline-block;
-  font-size: 45px;
-  /* margin-left: 90px; */
-}
-
-.how {
-  /* text-align: right;
-  text-indent: 730px; */
-  /* float: left; */
-  text-align: center;
-  padding: 14px 20px;
-  display: inline-block;
-  font-size: 45px;
-  /* margin-left: 90px; */
-}
-
 /* #PICTURES */
-
 .all-pics {
   display: block;
   margin-left: 590px;
@@ -138,7 +93,61 @@ button:hover {
   margin-top: -150px;
 }
 
-.first-pic {
+.heading {
+  text-align: left;
+  color: black;
+  font-family: "Open+Sans", sans-serif;
+  font-weight: 500px;
+  font-size: 98px;
+  /* position: relative;
+  left: 10px */
+}
+
+.subtitle {
+  text-align: left;
+  color: black;
+  font-family: "Open+Sans", sans-serif;
+  font-weight: 500px;
+  font-size: 55px;
+}
+
+.body {
+  text-align: left;
+  color: black;
+  font-family: "Open+Sans", sans-serif;
+  font-weight: 500px;
+  font-size: 35px;
+}
+
+/* #EXTRA CODE */
+
+/* .header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+} */
+
+/* #Hover for logo pic */
+/* .logo {
+  cursor: pointer;
+}
+
+/* #Cursor on the logo  */
+/* .logo-pic {
+  cursor: pointer;
+} */
+*/
+
+/* #NAV BOX */
+/* header {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+} */
+
+/* .first-pic {
   display: block;
   margin-left: 10px;
   margin-right: auto;
@@ -159,14 +168,41 @@ button:hover {
   margin-right: auto;
   width: 30%;
   margin-bottom: 800px;
-}
-
-/* #EXTRA CODE */
-/* #Hover for logo pic */
-/* .logo {
-  cursor: pointer;
-}
-
-.logo-pic {
-  cursor: pointer;
 } */
+
+/* #QUESTIONS IN THE MIDDLE */
+/* .what {
+  text-align: center;
+  padding: 14px 20px;
+  display: inline-block;
+  font-size: 45px;
+  right: -1060px;
+
+  /* text-align: center;
+  padding: 14px 20px;
+  display: inline-block;
+  margin-left: 1060px;
+  font-size: 45px;
+} */
+
+.why {
+  /* text-align: center;
+  text-indent: 380px; */
+  /* float: left; */
+  text-align: center;
+  padding: 14px 20px;
+  display: inline-block;
+  font-size: 45px;
+  /* margin-left: 90px; */
+}
+
+/* .how {
+  /* text-align: right;
+  text-indent: 730px; */
+/* float: left; */
+/* text-align: center; */
+/* padding: 14px 20px; */
+/* display: inline-block; */
+/* font-size: 45px; */
+/* margin-left: 90px; */
+/* } */
