@@ -121,7 +121,7 @@ button:hover {
 }
 
 .s2d-heading {
-  text-align: center;
+  text-align: left;
   color: black;
   font-family: "Open+Sans", sans-serif;
   font-weight: 500px;
@@ -129,9 +129,9 @@ button:hover {
 }
 
 .s2d-big-pic {
-  margin-left: 390px;
+  margin-left: 5px;
   margin-right: auto;
-  width: 55%;
+  width: 30%;
   /* margin-bottom: 2px; */
   /* margin-top: -150px; */
 }
