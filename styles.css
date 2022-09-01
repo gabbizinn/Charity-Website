@@ -119,6 +119,25 @@ button:hover {
   font-size: 35px;
 }
 
+.s2d-heading {
+  text-align: center;
+  color: black;
+  font-family: "Open+Sans", sans-serif;
+  font-weight: 500px;
+  font-size: 55px;
+}
+
+.s2d-big-pic {
+  margin-left: 390px;
+  margin-right: auto;
+  width: 55%;
+  /* margin-bottom: 2px; */
+  /* margin-top: -150px; */
+}
+
+.contact-name {
+  size: 20px;
+}
 /* #EXTRA CODE */
 
 /* .header {
