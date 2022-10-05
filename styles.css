@@ -1,228 +1,75 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
-
-a,
-button {
-  font-family: "Open+Sans", sans-serif;
-  font-weight: 500px;
-  font-size: 30px;
-  color: black;
-  text-decoration: none;
-  float: right;
-  margin-right: 55px;
-}
-
-.nav {
-  height: 50px;
-  padding-right: -70px;
-  padding-left: -70px;
-  /* background-color: rgba(119, 136, 153); */
-}
-
-.nav_links {
-  list-style: none;
-}
-
-/* #puts spacing in between the links */
-.nav_links li {
-  display: inline-block;
-  padding: 30px 10%;
-}
-
-/* #Makes links move */
-.nav_links li a {
-  transition: all 0s ease 0s;
-}
-
-/* #Changes hover color */
-a:hover {
-  color: pink;
-}
-
-button {
-  padding: 9px 25px;
-  /* background-color: rgba(119, 136, 153); */
-  border-radius: 89px;
-  transition: all 0s ease 0s;
-  cursor: pointer;
-  margin-right: 870px;
-}
-
-button:hover {
-  background-color: pink;
-}
-
-/* # HOME LOGO PIC */
+/* #Home page logo */
 .home-logo-pic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
+  margin-left: 32%;
 }
 
-/* #LOGO PIC */
-.logo-pic {
-  display: block;
-  margin-left: 1px;
-  /* margin-right: auto; */
-  width: 10%;
+/* #nav bar background color */
+.nav-bar {
+  position: none;
+  z-index: 10000;
+  width: 100%;
+  margin-left: 30%;
+  /* height: 100vh; */
+  /* background: #fa255e; */
 }
 
-/* #LINE */
-.striped-line {
-  border: 40px star black;
-  width: 50%;
-  /* margin-top: 0%; */
-  /* margin-bottom: 150%; */
+av {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
 }
 
-/* #BIG PIC */
-.big-pic {
-  display: block;
-  margin-left: 570px;
-  margin-right: auto;
-  width: 55%;
-  margin-bottom: 800px;
+/* #the border of my nav bar */
+nav ul {
+  display: inline-block;
+  list-style: none;
+  border: 5px solid lightgrey;
+  border-radius: 30px;
 }
 
-/* #PICTURES */
-.all-pics {
-  display: block;
-  margin-left: 590px;
-  margin-right: auto;
-  width: 55%;
-  /* margin-bottom: 2px; */
-  margin-top: -150px;
+/* #nav list format (spacing my words) */
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+/* #the color and boldness of my nav bar words */
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* #the color of the line that pops up when I hover over a word */
+nav ul li a:hover {
+  text-decoration: underline;
+  border-bottom: solid 5px lightpink;
+}
+
+.signup-logo-pic {
+  margin-left: 25%;
+}
+
+.donate-logo-pic {
+  margin-left: 33%;
 }
 
 .heading {
-  text-align: left;
-  color: black;
-  font-family: "Open+Sans", sans-serif;
-  font-weight: 500px;
-  font-size: 98px;
-  /* position: relative;
-  left: 10px */
+  text-align: center;
 }
 
 .subtitle {
-  text-align: left;
-  color: black;
-  font-family: "Open+Sans", sans-serif;
-  font-weight: 500px;
-  font-size: 55px;
+  text-align: center;
 }
 
 .body {
-  text-align: left;
-  color: black;
-  font-family: "Open+Sans", sans-serif;
-  font-weight: 500px;
-  font-size: 35px;
-}
-
-.s2d-heading {
-  text-align: left;
-  color: black;
-  font-family: "Open+Sans", sans-serif;
-  font-weight: 500px;
-  font-size: 55px;
+  text-align: center;
 }
 
 .s2d-big-pic {
-  margin-left: 5px;
-  margin-right: auto;
-  width: 30%;
-  /* margin-bottom: 2px; */
-  /* margin-top: -150px; */
+  margin-left: 10%;
 }
-
-.contact-name {
-  size: 20px;
-}
-/* #EXTRA CODE */
-
-/* .header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 30px 10%;
-} */
-
-/* #Hover for logo pic */
-/* .logo {
-  cursor: pointer;
-}
-
-/* #Cursor on the logo  */
-/* .logo-pic {
-  cursor: pointer;
-} */
-*/
-
-/* #NAV BOX */
-/* header {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  background-color: gray;
-} */
-
-/* .first-pic {
-  display: block;
-  margin-left: 10px;
-  margin-right: auto;
-  width: 30%;
-}
-
-.second-pic {
-  display: block;
-  margin-left: 580px;
-  margin-right: auto;
-  width: 30%;
-  margin-bottom: 500px;
-}
-
-.third-pic {
-  display: block;
-  margin-left: 480px;
-  margin-right: auto;
-  width: 30%;
-  margin-bottom: 800px;
-} */
-
-/* #QUESTIONS IN THE MIDDLE */
-/* .what {
-  text-align: center;
-  padding: 14px 20px;
-  display: inline-block;
-  font-size: 45px;
-  right: -1060px;
-
-  /* text-align: center;
-  padding: 14px 20px;
-  display: inline-block;
-  margin-left: 1060px;
-  font-size: 45px;
-} */
-
-.why {
-  /* text-align: center;
-  text-indent: 380px; */
-  /* float: left; */
-  text-align: center;
-  padding: 14px 20px;
-  display: inline-block;
-  font-size: 45px;
-  /* margin-left: 90px; */
-}
-
-/* .how {
-  /* text-align: right;
-  text-indent: 730px; */
-/* float: left; */
-/* text-align: center; */
-/* padding: 14px 20px; */
-/* display: inline-block; */
-/* font-size: 45px; */
-/* margin-left: 90px; */
-/* } */
